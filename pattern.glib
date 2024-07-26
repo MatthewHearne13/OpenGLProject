@@ -1,0 +1,15 @@
+##OpenGL GLIB
+Perspective 70.
+LookAt 0 0 8  0 0 0  0 1 0
+
+Vertex		pattern1.vert
+Fragment	pattern.frag
+Program Pattern						    \
+		uA <0.0 0.00 1.0>               \
+		uB <0.1 0.6 3.0>                \
+		uC <0. 0. 6.28>                 \
+		uD <0. 0. 2.>                   \
+		uNoiseAmp <0. 0. 5.>            \
+		uNoiseFreq <0.1 1. 20.>         \
+				
+QuadXY   -0.2   1.  128 128

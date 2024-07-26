@@ -1,0 +1,4 @@
+
+ERROR: 0:52: 'assign' : l-value required "uShininess" (cannot modify a uniform)
+
+

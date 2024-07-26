@@ -1,0 +1,15 @@
+##OpenGL GLIB
+LookAt  0 0 3  0 0 0  0 1 0
+Perspective 70
+LookAt  0 0 3     0 0 0    0 1 0
+
+Vertex   booster.vert
+Fragment booster.frag
+Program Rocket                                          \
+        uKa <0. .1 1.>                                  \
+        uKd <0. .6 1.>                                  \
+        uKs <0. .3 1.>                                  \
+        uShininess <1. 15. 20>                          
+    
+Scale 0.2
+Obj Starship.obj
